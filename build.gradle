@@ -6,7 +6,6 @@ buildscript {
         allureVersion = '2.13.9'
         selenideVersion = '5.20.0'
         junitVersion = '5.6.2'
-        awaitilityVersion = '4.0.3'
         commonsVersion = '3.12.0'
         snakeyamlVersion = '1.28'
         slf4jVersion = '1.7.30'
@@ -40,7 +39,6 @@ dependencies {
     implementation "org.yaml:snakeyaml:${snakeyamlVersion}"
     implementation "org.slf4j:slf4j-api:${slf4jVersion}"
     implementation "org.slf4j:slf4j-log4j12:${slf4jVersion}"
-    implementation "org.awaitility:awaitility:${awaitilityVersion}"
     implementation "org.apache.commons:commons-lang3:${commonsVersion}"
     implementation "org.assertj:assertj-core:${assertjVersion}"
     implementation "com.squareup.okhttp3:okhttp:${okhttpVersion}"
