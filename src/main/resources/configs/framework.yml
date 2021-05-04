@@ -1,0 +1,5 @@
+test:
+  timeout: 15
+  browser: ${BROWSER:chrome}
+  app.url: https://the-internet.herokuapp.com
+  api.url: https://www.metaweather.com/api/location
