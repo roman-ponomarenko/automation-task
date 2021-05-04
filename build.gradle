@@ -23,7 +23,7 @@ plugins {
 }
 
 version '1.0'
-group = 'com.nfl.dm.mobile'
+group = 'org.automation.task'
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
